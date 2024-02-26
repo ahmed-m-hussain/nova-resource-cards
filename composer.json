@@ -9,8 +9,8 @@
         "cards"
     ],
     "require": {
-        "php": "^7.4|^8",
-        "laravel/nova": "^4.0"
+        "php": "^7.4|^8|^8.1",
+        "laravel/nova": "*"
     },
     "autoload": {
         "psr-4": {
@@ -29,8 +29,8 @@
     },
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://nova.laravel.com"
+            "type": "path",
+            "url": "./nova"
         }
     ],
     "minimum-stability": "dev",
